@@ -17,7 +17,7 @@
 		background-attachment: fixed,								fixed,														fixed;
 	}
 
-		#wrapper.fade-in:before {
+		#wrapper.fade-out:before {
 			display: none;
 		}
 
