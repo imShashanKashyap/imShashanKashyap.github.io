@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Knowledge Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+
+    <!-- <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav> -->
+
+    <section class="main-content">
+        <div class="article-container">
+            <article>
+                <h2>How to Become a Data Analyst - Top 5 Points</h2>
+                <!-- <img src="image1.jpg" alt=""> -->
+                <p class="excerpt">
+
+
+                <ol>
+
+                    <li>
+                        <strong>Acquire Relevant Education and Skills:</strong> Obtain a degree in a
+                        field such as data science, statistics, mathematics, or computer science.
+                        Develop proficiency in programming languages like Python or R, and gain
+                        expertise in data analysis tools such as SQL, Excel, and Tableau.
+                    </li> <br>
+
+                    <li>
+                        <strong>Enhance Data Analysis Techniques:</strong> Learn and practice various
+                        data analysis techniques, including data cleaning, data visualization,
+                        exploratory data analysis, statistical analysis, and predictive modeling.
+                        Familiarize yourself with statistical concepts and machine learning algorithms.
+                    </li> <br>
+                    <li>
+                        <strong>Gain Practical Experience:</strong> Apply your knowledge and skills
+                        through hands-on projects and real-world datasets. Seek internships, part-time
+                        positions, or freelance opportunities that allow you to work with data and gain
+                        practical experience in data analysis.
+                    </li> <br>
+                    <li>
+                        <strong>Continuous Learning and Upgradation:</strong> Stay updated with the
+                        latest trends, tools, and techniques in data analysis. Participate in online
+                        courses, attend workshops or webinars, and join relevant communities or forums
+                        to network with other data analysts and learn from their experiences.
+                    </li> <br>
+                    <li>
+                        <strong>Develop Strong Communication Skills:</strong> Effective communication is
+                        crucial in data analysis. Develop the ability to translate complex findings and
+                        technical information into clear and concise insights that can be understood by
+                        non-technical stakeholders. Present your findings in a visually appealing and
+                        compelling manner.
+                    </li><br>
+
+                </ol>
+
+                </p>
+                <!-- <p class="full-text">
+                    ok then
+                </p>
+                <a href="#" class="read-more">Read More</a> -->
+            </article>
+
+            <article>
+                <h2>How a non-technical person can become a Data Analyst - Top 5 Points</h2>
+                <!-- <img src="image2.jpg" alt="Article 2 Image"> -->
+                <p class="excerpt">
+
+
+
+                <ol>
+                    <li>
+                        <strong>Gain Basic Understanding of Data Analysis:</strong> Start by developing
+                        a foundational understanding of data analysis concepts. Learn about the
+                        importance of data, data types, and basic statistical concepts such as averages,
+                        percentages, and correlations. This will help you grasp the fundamentals of data
+                        analysis.
+                    </li> <br>
+                    <li>
+                        <strong>Learn Data Analysis Tools:</strong> Familiarize yourself with
+                        user-friendly data analysis tools that require minimal coding or programming
+                        skills. Tools like Microsoft Excel, Google Sheets, or Tableau provide intuitive
+                        interfaces and functionalities for data manipulation, visualization, and basic
+                        analysis.
+                    </li> <br>
+                    <li>
+                        <strong>Focus on Data Visualization:</strong> Enhance your skills in data
+                        visualization, as it is a crucial aspect of data analysis. Learn how to create
+                        visually appealing charts, graphs, and dashboards to effectively communicate
+                        insights from data. Explore tools like Tableau Public or Google Data Studio for
+                        creating interactive visualizations.
+                    </li> <br>
+                    <li>
+                        <strong>Develop Domain Knowledge:</strong> Choose a specific industry or domain
+                        that interests you and acquire domain knowledge. Understanding the context and
+                        challenges of a particular industry will help you perform data analysis that is
+                        relevant and insightful. This could be finance, marketing, healthcare, or any
+                        other field of interest.
+                    </li> <br>
+                    <li>
+                        <strong>Seek Practical Experience:</strong> Apply your knowledge by working on
+                        real-world projects or case studies. Look for opportunities to work with
+                        datasets, analyze trends, and draw insights. Participate in online courses,
+                        workshops, or bootcamps that offer hands-on projects, as this will help you
+                        build a portfolio and demonstrate your practical data analysis skills.
+                    </li>
+                </ol>
+
+                </p>
+                <!-- <p class="full-text">
+            
+                        </p>
+                        <a href="#" class="read-more">Read More</a> -->
+            </article>
+
+
+
+
+    </section>
+
+
+    <footer>
+        <div class="actions special">
+            <a href="https://docs.google.com/spreadsheets/d/1aVnLCaL0VPZSQAHD0v4YayNS-m0azWT36VpyDzQ6N10/edit?usp=sharing"
+                target="_blank" class="button">
+                Click Here to access IMPORTANT links (Jobs Postings, FREE Certifications, Learning Content etc.)
+            </a>
+<br><br>
+            <a href="https://chat.whatsapp.com/FTHZYfLlCOY73GuhwuONYT"
+                target="_blank" class="button">
+                Click Here to join Data Analyst Community WhatsApp Group
+            </a>
+
+        </div>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Get all "Read More" links
+        const readMoreLinks = document.querySelectorAll('.read-more');
+
+        // Add click event listener to each "Read More" link
+        readMoreLinks.forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                const post = link.parentNode;
+                const fullText = post.querySelector('.full-text');
+                fullText.classList.toggle('show');
+                link.textContent = fullText.classList.contains('show') ? 'Read Less' : 'Read More';
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
